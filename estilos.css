@@ -1,0 +1,34 @@
+header {
+    padding: 30px;
+    text-align: left;
+    background: #eca533;
+    font-size: 30px;
+  }
+  h1{
+      color:#1eff00;
+      font-size:1em;
+      font-family:Arial;
+      line-height:1;
+      font-weight:100;
+  }
+  .centro{
+      width:1960px;
+      height:1080px;
+      background-image:url("https://c.tenor.com/1y8zDc-ll-EAAAAd/3d-saul-saul-goodman.gif");
+  }
+  li{
+
+      
+    
+  }
+
+  footer{
+      background-color: #eca533;
+      color:white;
+      padding-top:1.2rem;
+      padding-bottom:1.2rem;
+      display:flex;
+      flex-direction:column;
+      text-align:center;
+      width: 100%;
+  }
