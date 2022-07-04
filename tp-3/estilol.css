@@ -1,0 +1,82 @@
+@media(min-width: 400px){
+    p {
+        font-size: 1.3em;
+    }
+}
+
+@media(max-width: 300px){
+    h1{
+        text-align: center;
+    }
+}
+
+/*En la actividad sugiere modificar la clase container pero esta no existe en el html*/
+@media (max-width: 200px) {
+    .container{
+        width: 90%;
+    }
+}
+@media (min-width: 200px) and (max-width: 400px){
+    .container{
+        width: 80%;
+    }
+}
+@media (min-width: 400px){
+    .container{
+        width: 390px;
+    }
+}
+
+@media screen{
+    .container{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media not print{
+    body {
+        background-color: #ddccaa;
+    }
+}
+
+@media (color: 0) {
+    #wikipedia-logo {
+        display: none;
+    }
+}
+
+@media (hover: hover) {
+    blockquote:hover {
+      background-color: #ccddaa;
+    }
+}
+/*
+Media hover
+Internet Explorer: No
+Chrome: A partir de la versión 38 y de la 50 en Chrome Android
+Edge: A partir de la versión 12
+Firefox/Firefox for Android: A partir de la versión 64
+Opera/Opera Android: A partir de la versión 28
+Safari/Safari on iOS: A partir de la versión 9
+Webview Android: A partir de la versión 38
+Samsung Internet: A partir de la versión 5.0
+*/
+
+@media (device-aspect-ratio: 1/1){
+    figure {
+        width: 80%;
+        margin: 5px auto;
+        padding: 5px;
+        border: 1px solid #999;
+        border-radius: 10px;
+    }
+}
+
+/*Si el dispositivo no supera los 600px de ancho o es a color y los supera {}*/
+@media not (max-width: 600px), (color) and (min-width:600px){
+    a {
+        color: #ffffff;
+    }
+}
